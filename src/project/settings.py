@@ -15,7 +15,6 @@ from decouple import config, Csv
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-print(BASE_DIR)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
@@ -23,11 +22,10 @@ print(BASE_DIR)
 # SECURITY WARNING: keep the secret key used in production secret!
 
 SECRET_KEY = config('SECRET_KEY')
-print (SECRET_KEY)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
-print (DEBUG)
+
 #EMAIL_PORT = config('EMAIL_PORT', cast=int)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
@@ -42,9 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'people',
-    'import_export',
-    'rest_framework',
 ]
 
 MIDDLEWARE = [

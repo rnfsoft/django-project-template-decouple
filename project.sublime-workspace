@@ -7,23 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/.env",
-			"settings":
-			{
-				"buffer_size": 229,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/snippets/nav.html",
-			"settings":
-			{
-				"buffer_size": 222,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -57,19 +40,26 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Development/project_template_decouple/src",
-		"/D/Development/project_template_decouple/src/project",
-		"/D/Development/project_template_decouple/src/templates",
-		"/D/Development/project_template_decouple/src/templates/snippets"
+		"/D/Dev/project_template_decouple/src",
+		"/D/Dev/project_template_decouple/src/project",
+		"/D/Dev/project_template_decouple/src/templates",
+		"/D/Dev/project_template_decouple/src/templates/registration",
+		"/D/Dev/project_template_decouple/src/templates/snippets"
 	],
 	"file_history":
 	[
+		"/D/Dev/project_template_decouple/src/.env-example",
+		"/D/Dev/Django_Project_Template/src/project/settings.py",
+		"/D/Dev/Django_Project_Template - Copy/src/project/settings.py",
+		"/D/Dev/project_template_decouple/src/project/settings.py",
+		"/D/Dev/project_template_decouple/src/templates/snippets/nav.html",
+		"/D/Dev/project_template_decouple/.gitignore",
 		"/C/Dev/project/src/project/settings.py",
 		"/C/Dev/project/src/project/settings/__init__.py"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -83,6 +73,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".env"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -100,75 +91,18 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/.env",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								229,
-								229
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/templates/snippets/nav.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 222,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								222,
-								222
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -201,7 +135,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -239,7 +173,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 188.0,
+	"side_bar_width": 267.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
