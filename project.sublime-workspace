@@ -7,6 +7,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/D/Dev/project_template/src/project/settings.py",
+			"settings":
+			{
+				"buffer_size": 3091,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/project/settings.py",
+			"settings":
+			{
+				"buffer_size": 3474,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -48,6 +65,7 @@
 	],
 	"file_history":
 	[
+		"/D/Dev/How to use Git",
 		"/D/Dev/project_template_decouple/src/.env-example",
 		"/D/Dev/Django_Project_Template/src/project/settings.py",
 		"/D/Dev/Django_Project_Template - Copy/src/project/settings.py",
@@ -91,8 +109,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/D/Dev/project_template/src/project/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/project/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1998.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
